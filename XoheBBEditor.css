@@ -1,0 +1,17 @@
+#XoheBB
+{
+	width: auto;
+	height: auto;
+	border: 2px solid;
+}
+#XoheBB-Editor
+{
+	resize: none;
+	border: none;
+	width: 1000px;
+	height: 500px;
+}
+#XoheBB-Tools
+{
+	background: red;
+}
