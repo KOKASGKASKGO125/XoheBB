@@ -29,23 +29,12 @@ function createEditor(bgColor,fontColor)
 	"<a href='#' class='button-text' onclick='setFormat("+'"justifyCenter"'+");'><img class='aling-img' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/align-center.png?raw=true'></a>"+
 	"<a href='#' class='button-text' onclick='setFormat("+'"justifyRight"'+");'><img class='aling-img' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/align-right.png?raw=true'></a></item-box>"+
 	"<item-box><a href='#' class='button-text' onclick='insertImg();'><img style='width: 20px;' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/img.png?raw=true'></a>"+
-	"<a href='#' class='button-text' onclick='insertUrl();'>URL</a><a href='#' class='button-text' onclick='insertFormatBlock('blockquote');'><img style='width: 20px; top: 1px;' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/code.png?raw=true'></a></item-box>"+
+	"<a href='#' class='button-text' onclick='insertUrl();'>URL</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"blockquote"'+");'><img style='width: 20px; top: 1px;' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/code.png?raw=true'></a></item-box>"+
 	"<item-box><a href='#' class='button-text' onclick='insertFormatBlock("+'"h1"'+");'>h1</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"h2"'+");'>h2</a>"+
 	"<a href='#' class='button-text' onclick='insertFormatBlock("+'"h3"'+");'>h3</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"p"'+");'>P</a></item-box></div>"+
 	"</div><div id='XoheBB-Editor'contenteditable='true'>Этот текст может быть отредактирован пользователем</div>";
 	document.getElementById("XoheBB").style.color = fontColor;
 	document.getElementById("XoheBB").style.backgroundColor = bgColor;
-}
-
-function setSize(width, height)
-{
-	// Size Editor
-	document.getElementById("XoheBB").style.width = width+4+"px";
-	document.getElementById("XoheBB").style.height = height+33+"px";
-	document.getElementById("XoheBB-Editor").style.width = width+"px";
-	document.getElementById("XoheBB-Editor").style.height = height+"px";
-	document.getElementById("XoheBB-Tools").style.width = width+4+"px";
-	document.getElementById("XoheBB-Tools").style.height = "50px";
 }
 
 function setRadius(radius)

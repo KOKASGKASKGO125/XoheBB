@@ -23,11 +23,12 @@ SOFTWARE.*/
 
 #XoheBB
 {
+	border: 2px solid;
+	min-width: 198px;
+	min-height: 300px;
+
 	width: auto;
 	height: auto;
-	border: 2px solid;
-
-	min-width: 198px;
 
 	margin: 0px;
 	padding: 0px;
@@ -42,8 +43,11 @@ SOFTWARE.*/
 
 #XoheBB-Editor
 {
-	width: auto;
+	min-width: 198px;
 	min-height: 300px;
+
+	width: auto;
+	height: auto;
 	padding: 10px;
 }
 
@@ -83,6 +87,11 @@ SOFTWARE.*/
 	height: 15px;
 }
 
+img
+{
+	image-rendering: optimizeSpeed;
+}
+
 #XoheBB-Editor:focus{
 	outline: none;
 }
@@ -95,6 +104,31 @@ SOFTWARE.*/
 	margin-left: 3px;
 	background-color: #ECEAEA;
 }
+
+.container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+.color
+{
+	border: none;
+	padding: 0px;
+	height: 20px;
+	background-color: #F8F8F8;
+}
+
+.XoheBB-tools-box
+{
+	padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
 
 item-box
 {
@@ -116,24 +150,13 @@ item-box:last-child
 	border-right-color: #F8F8F8;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 600px;
-    margin: 20px auto 0;
-}
-
-.color
+blockquote
 {
-	border: none;
-	padding: 0px;
-	height: 20px;
-	background-color: #F8F8F8;
-}
+	background-color: #f6f6f6;
+	border-radius: 5px;
 
-.XoheBB-tools-box
-{
-	padding-top: 10px;
-    padding-left: 10px;
+	padding: 10px;
+
+	width: auto;
+	height: auto;
 }
