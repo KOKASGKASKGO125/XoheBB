@@ -37,6 +37,7 @@ SOFTWARE.*/
 {
 	text-decoration: none;
 	color: #66B2D9;
+	cursor: pointer;
 }
 
 #XoheBB-Editor
@@ -51,7 +52,6 @@ SOFTWARE.*/
 	background-color: #F8F8F8;
 	border-radius: 5px 5px 0px 0px;
 	border-bottom-color: #C9C9C9;
-	padding: 10px;
 
     display: flex;
     flex-wrap: wrap;
@@ -130,4 +130,10 @@ item-box:last-child
 	padding: 0px;
 	height: 20px;
 	background-color: #F8F8F8;
+}
+
+.XoheBB-tools-box
+{
+	padding-top: 10px;
+    padding-left: 10px;
 }

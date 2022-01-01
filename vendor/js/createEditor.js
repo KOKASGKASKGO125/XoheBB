@@ -23,7 +23,7 @@
 
 function createEditor(bgColor,fontColor)
 {
-	document.getElementById("XoheBB").innerHTML = "<div id='XoheBB-Tools'><item-box><a href='#' class='button-text' onclick='setFormat("+'"bold"'+");'>B</a><a href='#' class='button-text' onclick='setFormat("+'"italic"'+");'><i>I</i></a>"+
+	document.getElementById("XoheBB").innerHTML = "<div id='XoheBB-Tools'><div class='XoheBB-tools-box'><item-box><a href='#' class='button-text' onclick='setFormat("+'"bold"'+");'>B</a><a href='#' class='button-text' onclick='setFormat("+'"italic"'+");'><i>I</i></a>"+
 	"<a href='#' class='button-text' onclick='setFormat("+'"underline"'+");'><u>U</u></a><a href='#' class='button-text' onclick='setFormat("+'"strikethrough"'+");'><s>S</s></a></item-box>"+
 	"<item-box><a href='#' class='button-text' onclick='setFormat("+'"justifyLeft"'+");'><img class='aling-img' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/align-left.png?raw=true'></a>"+
 	"<a href='#' class='button-text' onclick='setFormat("+'"justifyCenter"'+");'><img class='aling-img' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/align-center.png?raw=true'></a>"+
@@ -31,7 +31,7 @@ function createEditor(bgColor,fontColor)
 	"<item-box><a href='#' class='button-text' onclick='insertImg();'><img style='width: 20px;' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/img.png?raw=true'></a>"+
 	"<a href='#' class='button-text' onclick='insertUrl();'>URL</a><a href='#' class='button-text' onclick='insertFormatBlock('blockquote');'><img style='width: 20px; top: 1px;' src='https://github.com/xoheveras/XoheBB/blob/main/vendor/image/code.png?raw=true'></a></item-box>"+
 	"<item-box><a href='#' class='button-text' onclick='insertFormatBlock("+'"h1"'+");'>h1</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"h2"'+");'>h2</a>"+
-	"<a href='#' class='button-text' onclick='insertFormatBlock("+'"h3"'+");'>h3</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"p"'+");'>P</a></item-box>"+
+	"<a href='#' class='button-text' onclick='insertFormatBlock("+'"h3"'+");'>h3</a><a href='#' class='button-text' onclick='insertFormatBlock("+'"p"'+");'>P</a></item-box></div>"+
 	"</div><div id='XoheBB-Editor'contenteditable='true'>Этот текст может быть отредактирован пользователем</div>";
 	document.getElementById("XoheBB").style.color = fontColor;
 	document.getElementById("XoheBB").style.backgroundColor = bgColor;
