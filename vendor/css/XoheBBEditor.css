@@ -1,0 +1,133 @@
+/*MIT License
+
+Copyright (c) 2021 Egor Udovin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.*/
+
+
+#XoheBB
+{
+	width: auto;
+	height: auto;
+	border: 2px solid;
+
+	min-width: 198px;
+
+	margin: 0px;
+	padding: 0px;
+}
+
+#XoheBB-Editor a
+{
+	text-decoration: none;
+	color: #66B2D9;
+}
+
+#XoheBB-Editor
+{
+	width: auto;
+	min-height: 300px;
+	padding: 10px;
+}
+
+#XoheBB-Tools
+{
+	background-color: #F8F8F8;
+	border-radius: 5px 5px 0px 0px;
+	border-bottom-color: #C9C9C9;
+	padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#XoheBB-Tools .button-text
+{
+	background-color: #F8F8F8;
+	border: none;
+	color: #727272;
+	cursor: pointer;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 13px;
+
+	text-decoration: none;
+
+	padding: 0px;
+	margin-right: 5px;
+}
+
+.aling-img
+{
+	width: 15px;
+	height: 15px;
+}
+
+#XoheBB-Editor:focus{
+	outline: none;
+}
+
+.line
+{
+	width: 2px;
+	height: 20px;
+	margin-right: 8px;
+	margin-left: 3px;
+	background-color: #ECEAEA;
+}
+
+item-box
+{
+	border: 2px solid;
+	border-color: #F8F8F8;
+	border-right-color: #ECEAEA;
+
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+item-box:first-child
+{
+	padding-left: 0px;
+}
+
+item-box:last-child
+{
+	border-right-color: #F8F8F8;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 600px;
+    margin: 20px auto 0;
+}
+
+.color
+{
+	border: none;
+	padding: 0px;
+	height: 20px;
+	background-color: #F8F8F8;
+}
