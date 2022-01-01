@@ -1,7 +1,10 @@
-<div align="center"> <img src="https://github.com/xoheveras/XoheBB/blob/main/vendor/image/Group%208.png?raw=true"></div>
+<div align="center"> <img src="vendor/image/Group 8.png"></div>
 <br>
 <hr>
 <div align="center"> A simple text editor that can be used for a forum or website (use for wherever you want). If you have any suggestions on what to add, write. Completely free </div>
+<br>
+<div align="center"> <img src="vendor/image/Group 11 (2).png"></div>
+<br>
 
 <div align="center"> <h3> How install(Html) </h3> </div>
 
