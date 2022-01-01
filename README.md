@@ -1,4 +1,6 @@
-<div align="center"> <h1>XoxeBB - WYSIWYG Editor</h1> </div>
+<div align="center"> <img src="https://github.com/xoheveras/XoheBB/blob/main/vendor/image/Group%207.png"></div>
+<br>
+<hr>
 <div align="center"> A simple text editor that can be used for a forum or website (use for wherever you want). If you have any suggestions on what to add, write. Completely free </div>
 
 <div align="center"> <h3> How install(Html) </h3> </div>
